@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+tensorflow-gpu = "==2.5.0"
+matplotlib = "==3.5.3"
+opencv-python = "==4.7.0.68"
+keras = "==2.10.0"
+cvzone = "*"
+mediapipe = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
